@@ -17,9 +17,9 @@ Please cite the paper if you use the code from this repository in your work.
 }
 ```
 
-##Running the Code
+## Running the Code
 
-###Prerequisites
+### Prerequisites
 ```
 tensorflow >=1.14.0
 Keras >= 2.2.4 
@@ -30,14 +30,14 @@ matplotlib >= 3.1.1
 tqdm >= 4.32.1
 ```
 
-###Train from scratch
+### Train from scratch
 
 ```
 python preprocess.py
 python train.py --nb_epoch 100 --input_num 25 --dataset casia
 ```
 
-###Test
+### Test
 
 ```
 python eval.py --input_num 25 --dataset casia --checkpoint_path /path/to/checkpoint 
